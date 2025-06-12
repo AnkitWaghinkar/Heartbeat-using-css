@@ -10,40 +10,47 @@ body {
 
 
 .heart {
-        position: relative;
-        height: 100px;
-        width: 100px;
-        background-color: #ff3838;
+         position: relative;
+         height: 100px;
+         width: 100px;
+         background-color: #ff3838;
+
+         transform: rotate(45deg);
         
 }
 
 
 .heart::before{
 
-    content: '';
-    position: absolute;
+             content: '';
+             position: absolute;
     
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
+             top: 0px;
+             left: 0px;
+             height: 100%;
+             width: 100%;
     
-    background-color: #ff3838;
-    transform: translateY(-50%);
+             background-color: #ff3838;
+             transform: translateY(-50%);
+
+             border-radius: 50%;
 }
+
 
 .heart::after{
 
-    content: '';
-    position: absolute;
+             content: '';
+             position: absolute;
+             
+             top: 0px;
+             left: 0px;
+             height: 100%;
+             width: 100%;
     
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    width: 100%;
-    
-    background-color: #ff3838;
-    transform: translateX(-50%);
+             background-color: #ff3838;
+             transform: translateX(-50%);
+  
+             border-radius: 50%;
 }
 
 
