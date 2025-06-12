@@ -18,5 +18,33 @@ body {
 }
 
 
+.heart::before{
+
+    content: '';
+    position: absolute;
+    
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    
+    background-color: #ff3838;
+    transform: translateY(-50%);
+}
+
+.heart::after{
+
+    content: '';
+    position: absolute;
+    
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    
+    background-color: #ff3838;
+    transform: translateX(-50%);
+}
+
 
 
